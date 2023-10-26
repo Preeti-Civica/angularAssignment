@@ -1,0 +1,37 @@
+.custom-modal-body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(33, 10, 146, 0.2);
+}
+.custom-modal-body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.coupon-code {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.custom-apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.custom-apply-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+
+

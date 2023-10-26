@@ -1,0 +1,36 @@
+<div class="app">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Coupon</h2>
+
+        <button
+          type="button"
+          class="btn-close"
+          routerLink="/store"
+          aria-label="Close"
+        ></button>
+      </div>
+
+
+      <div class="modal-body custom-modal-body">
+        <p>
+            <b class="coupon-code-label">Coupon Code:</b><br />
+            <small class="coupon-code">SUMMERSALE10</small>
+            <br />
+            Use this coupon Code for getting 10% Discount in your Purchase.
+        </p>
+    
+        <button
+            type="button"
+            class="btn btn-primary float-end custom-apply-button"
+            (click)="addDiscount()"
+            aria-label="Apply"
+        >
+            Apply
+        </button>
+    </div>
+    
+    </div>
+  </div>
+</div>

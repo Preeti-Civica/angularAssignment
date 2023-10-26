@@ -1,0 +1,46 @@
+.custom-bg-color {
+    background-color:rgb(35, 143, 189);
+    color: aliceblue;
+    font-style: oblique;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.custom-category-button {
+    background-color: green;  
+    color: white; 
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin: 1px;
+    font-weight: bold;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #7293ff, #4719df);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    display: block;
+    z-index: 1
+    
+}
+
+.custom-category-button:hover {
+    background: linear-gradient(45deg, #4719df, #7293ff);
+    transform: scale(1.05);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    border-color: #4719df;
+
+}
+
+.custom-category-button:active {
+    transform: scale(0.98);
+}
+
+.product-image-container {
+    float: left;
+    margin-right: 10px; 
+}
+
+.product-image {
+    max-width: 100px; 
+}
